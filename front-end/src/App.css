@@ -1,0 +1,169 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+body
+{
+  /* border:2px solid red; */
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.nav
+{
+  /* border:2px solid red; */
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(28, 43, 61);
+}
+.left > *{
+  font-size:1.3rem;
+  margin:0px 20px;
+  color:white;
+  font-family: sans-serif;
+}
+.btn
+{
+  height: 30px;
+  width:100px;
+  margin-right:10px;
+  font-size:1.2rem;
+  color:white;
+  background-color: rgba(20, 108, 203, 0.469);
+  border:0;
+}
+.box
+{
+  min-height: 100vh;
+  min-width: 100vw;
+  /* border:2px solid red; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.main
+{
+  display: flex;
+  flex-direction: column;
+  height:500px;
+  width:350px;
+  /* border:2px solid red; */
+  padding:5px 30px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: rgba(51, 120, 120, 0.578);
+}
+input
+{
+  height:40px;
+  border:2px solid gray;
+  border-radius: 9px;
+  font-size: 1.2rem;
+  padding-left:20px;
+  outline: none;
+}
+.title
+{
+  text-align: center;
+  font-family: sans-serif;
+  color:white;
+  
+}
+.main > button
+{
+  margin:0px auto;
+  background-color:rgb(18, 45, 45);
+  border-radius: 9px;
+}
+.recipe-box
+{
+  /* border:2px solid red; */
+  background-color: rgba(6, 26, 39, 0.657);
+  display: flex;
+  min-height: 500px;
+  max-height: max-content;
+  min-width: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:10px;
+  box-sizing: border-box;
+}
+.recipe-box > *{
+  margin:3px;
+}
+.recipe-box  input
+{
+  height:30px;
+  margin:5px;
+}
+.ingredients-div
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ingredients-div > input
+{
+  width:80%
+}
+.add-ingredients
+{
+  height: 30px;
+  margin:5px 0px;
+  font-size: 1.2rem;
+  background-color: rgba(14, 47, 47, 0.55);
+  color:white;
+}
+i
+{
+  color:red;
+}
+.recipe,.recipe-menu
+{
+  min-height: 100vh;
+  /* border:2px solid red;   */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.recipe-box-div
+{
+  width:300px;
+  min-height:400px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:10px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
+  background-color: rgb(211, 221, 218);
+  font-family: sans-serif;
+  margin:20px;
+}
+.recipe-box-div > img
+{
+  height:200px;
+  width:200px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+.recipe-box-div > *
+{
+  font-size:1.1rem;
+}
+.recipe-box-div h5
+{
+  font-size:1.5rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+.recipe-box-div p
+{
+  margin:10px;
+  color: rgb(52, 35, 35);
+}
